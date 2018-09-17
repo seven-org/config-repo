@@ -1,4 +1,4 @@
-from:market-seller-test
+from: market-seller-test
 spring:
   datasource:
     hikari:
