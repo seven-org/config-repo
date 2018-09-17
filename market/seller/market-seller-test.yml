@@ -10,3 +10,5 @@ spring:
     url: jdbc:mysql://47.75.176.242:30005/foodmarket?useUnicode=true&zeroDateTimeBehavior=convertToNull&characterEncoding=UTF-8&useSSL=false&allowMultiQueries=true
     username: root
     password: root
+server:
+  port: 8804
