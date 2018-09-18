@@ -1,5 +1,12 @@
 from: market-seller-test
 spring:
+  application:
+    name: seller-service
+  jpa:
+    show-sql: true
+    properties:
+      hibernate: 
+        format_sql: true
   datasource:
     hikari:
       minimum-idle: 3
@@ -9,6 +16,14 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://47.75.176.242:30005/foodmarket?useUnicode=true&zeroDateTimeBehavior=convertToNull&characterEncoding=UTF-8&useSSL=false&allowMultiQueries=true
     username: root
-    password: mysql
+    password: 1JKkU0lG6o
 server:
-  port: 8804
+  port: 8803
+eureka:
+  client:
+    enabled: false
+    service-url:
+      defaultZone: http://eureka1:8761/eureka/,http://eureka2:8762/eureka/
+logging:
+  level:
+    org.springframework.web: DEBUG
