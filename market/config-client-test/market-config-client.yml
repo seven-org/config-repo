@@ -1,1 +1,3 @@
 from: market-config-client-test-01
+server:
+  port: 9203
