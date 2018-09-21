@@ -18,7 +18,7 @@ spring:
     username: root
     password: 1JKkU0lG6o
   rabbitmq:
-    host: localhost
+    host: rabbit-bus
     port: 5672
     username: admin
     password: admin
