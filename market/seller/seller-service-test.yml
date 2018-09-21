@@ -1,4 +1,4 @@
-from: seller-service-test04
+from: seller-service-test05
 spring:
   application:
     name: seller-service
